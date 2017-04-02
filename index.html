@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Zadanie 8_7 Łańcuchy znaków</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <h1>
+            Zadanie nr 7 z modułu 8 FE 2017-02 (dashboard)
+        </h1>
+        <h2>8. Wprowadzenie do JavaScriptu - technologii, która odmieniła internet (moduł)</h2>
+        <h3>8.8. Łańcuchy znaków</h3>
+        <p> Zadanie: Zadanie: Papugi i słonie Poniższy tekst przypisz do zmiennej text: Papugi koszą trawę, unosząc się nad ziemią
+            15 centymetrów, na czerwonych dywanach. (To oczywiście nieprawda, bo tak robią 'Zielone słonie'.) Zadeklaruj
+            nową zmienną o nazwie `animal` zawierającą tekst 'Zielone słonie' , a następnie spraw, by stał się on 'UPPERCASE',
+            czyli składał się z wielkich liter. Następnie zamień 'Papugi' w tekście ze zmiennej 'text' na wartość zmiennej
+            'animal', używając wbudowanych funkcji napisów. Na koniec wyświetl za pomocą console.log() tylko pierwszą połowę
+            otrzymanego zdania (length/2), również z użyciem funkcji napisów. Spodziewany wynik to: ZIELONE SŁONIE koszą
+            trawę, unosząc się nad z Stwórz nowe repozytorium i wyślij tam swoje zadanie, a link do niego wklej poniżej.
+            Pamiętaj o udostępnieniu repozytorium swojemu mentorowi.
+        </p>
+    </div>
+    <div>
+        <h2>Prezentacja zadanie o Papugach i słoniach</h2>
+        <h3>Pierwotne motto</h3>
+        <p id="mottoPapuga" class="wiersz"></p>
+        <h3>Wstawka o słoniach dużymi literami</h3>
+        <p id="zieloneSlonie" class="wiersz"></p>
+        <button type="button" onclick="document.getElementById('zieloneSlonie').style.fontSize='160px'">Sprawdź jak duże są zielone słonie</button>
+        <button type="button" onclick="document.getElementById('zieloneSlonie').style.fontSize='32px'">Niech znów słonie będą słonikami</button>
+        <h3>Poprawione motto</h3>
+        <p id="mottoSlonie" class="wiersz"></p>
+        <h3>Połowa motto</h3>
+        <p id="polowaMotto" class="wiersz"></p>
+        
+    </div>
+    <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+
+</html>
